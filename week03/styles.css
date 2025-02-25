@@ -1,0 +1,65 @@
+body {
+    background-color: #dc8d8c;
+    background-image: url(images/supremebrick.jpeg);
+    margin: 0;
+    padding: 100px 60px 0px 60px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+}
+
+main {
+    max-width: 800px;
+
+    margin:20px;
+}
+
+p, h1, h2 {
+    display: inline-block;
+    background-color: #ffffff;
+    padding: 5px 12px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 4px #000000;
+    color: #000000;
+}
+/* text dec is not working how id like to */
+nav a {
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 5px 10px;
+    font-weight: bold;
+    text-decoration: uppercase;
+    color: #000000;
+}
+
+nav a:hover {
+    background-color: #9421e2;
+    color: #ffffff;
+}
+
+h2 {
+    color: #2a1903;
+    font-size: 50px;
+    font-style: italic;
+    font-weight: 900;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 5px;
+    text-shadow: 1px 1px 10px #00000000;
+    letter-spacing: 1px;
+}
+
+main h2 {
+    color: #71100f;
+    text-transform: uppercase;
+
+}
+
+main img {
+    width: 300px;
+    display: block;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 2px 2px 8px #00000000;
+}
+
+
+
