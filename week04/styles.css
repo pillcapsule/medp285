@@ -1,0 +1,99 @@
+body {
+    background: url('images/02.jpg');
+    background-size: cover;
+    background-color: rgb(200, 236, 229); 
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin: 0;
+    padding: 0;
+}
+
+#wrapper { 
+    background-color: rgb(79, 87, 114);
+    padding: 20px 100px;
+    border-radius: 10px;
+}
+
+header {
+    background-color: rgb(196, 212, 255);
+    border-radius: 10px;
+    text-align: center;
+    padding: 15px;
+}
+
+nav {
+    background-color: rgb(88, 140, 200);
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+}
+
+nav li {
+    display: inline;
+    margin: 0px 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-transform: uppercase;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: all 0.3s ease-in-out;
+}
+
+nav a:hover {
+    background-color: rgb(255, 200, 87);
+    color: rgb(22, 62, 97);
+    transform: scale(1.1);
+}
+
+footer {
+    background-color: rgb(216, 229, 241);
+    border-radius: 10px;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+section {
+    background-color: rgb(22, 62, 97);
+    padding: 10px;
+    border-radius: 10px;
+    margin: 20px 0;
+}
+
+article {
+    background-color: rgb(153, 179, 243);
+    border-radius: 10px;
+    padding: 10px 80px;
+    margin: 20px;
+}
+
+p {
+    font-weight: 200px;
+    color: black;
+}
+
+.image-gallery {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+.image-gallery img {
+    width: 80%;
+    max-width: 600px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out;
+}
+
+.image-gallery img:hover {
+    transform: scale(1.05);
+}
