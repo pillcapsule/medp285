@@ -1,0 +1,130 @@
+/* START border-box fix */
+html {
+    box-sizing: border-box;
+  }
+  *,
+  *:before,
+  *:after {
+    box-sizing: inherit;
+  }
+  /* END border-box fix */
+
+/* always recognize the margin and padding together*/
+  body {
+padding: 0;
+margin: 0;
+}
+
+  h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    text-transform: uppercase;
+}
+#wrapper>* {
+    padding: 30px;
+  }
+    #wrapper {margin: 0% auto;
+background-color: cornflowerblue;
+color: darkslategrey;
+max-width: 80%;
+display: flex;
+flex-wrap: wrap;
+
+}
+header {
+background-color: blue;
+flex: 1 0 100%;
+order: 1;
+}
+
+main {
+    background-color: rgb(0, 255, 200);
+flex: 1 1 500px;
+order: 3;
+}
+
+nav { 
+    background-color: rgb(118, 118, 156);
+    flex: 1 0 200px;
+order: 2;
+}
+
+aside{
+    background-color: rgb(161, 161, 186);
+flex: 1 0 200px;
+order: 4;
+}
+
+footer {
+    background-color: rgb(105, 105, 194);
+    flex: 1 0 100%;
+    order: 5
+;
+
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+
+#wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 90%;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f5f5f5;
+}
+
+
+header {
+  width: 100%;
+  background-color: cornflowerblue;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+main {
+  flex: 2;
+  padding: 20px;
+}
+
+
+aside {
+  flex: 1;
+  padding: 20px;
+  background-color: #ddd;
+  text-align: center;
+}
+
+
+.image-box {
+ 
+  padding: 10px;
+  background-color: white;
+  margin-bottom: 20px;
+}
+
+.image-box img {
+  width: 100%;
+  display: block;
+  object-fit: cover;
+}
+
+
+footer {
+  width: 100%;
+  background-color: darkslategray;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  margin-top: 20px;
+}
+
